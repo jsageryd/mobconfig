@@ -1,0 +1,24 @@
+[user]
+	name = Johan Sageryd
+	email = johan.sageryd@ws.se
+[core]
+	excludesfile = ~/.config.d/git/.gitexclude
+	pager =
+	editor = vi -c 'set noro | set tw=72'
+[advice]
+	detachedHead = false
+[alias]
+	a = add
+	ci = commit
+	co = checkout
+	cp = cherry-pick
+	rb = rebase
+	ri = rebase --interactive
+	st = status
+	rs = reset
+[mergetool]
+	keepBackup = false
+[svn]
+	rmdir = true
+[push]
+	default = simple

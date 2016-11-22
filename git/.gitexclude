@@ -1,0 +1,5 @@
+# OS X garbage
+.DS_Store
+
+# VIM swap files
+*.swp

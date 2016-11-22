@@ -1,0 +1,61 @@
+[user]
+	name = Infrastruktur-mobben (TODO: better name)
+  email = infrastruktur@tv4.se
+	useConfigOnly = true
+[core]
+	excludesfile = ~/.config.d/git/.gitexclude
+	editor = vim
+[alias]
+	a = add
+	ci = commit
+	co = checkout
+	cp = cherry-pick
+	l = log --pretty=compact --date=relative --topo-order
+	rb = rebase
+	ri = rebase --interactive
+	rs = reset
+	st = status
+[color]
+	ui = auto
+[push]
+	default = simple
+[rebase]
+	autosquash = true
+	missingCommitsCheck = warn
+[rerere]
+	enabled = true
+[fetch]
+	prune = true
+[pretty]
+	compact = "%C(240)%h %C(250)%an%C(240) %C(240)%ad%C(auto)%d%C(255) %s%C(reset)"
+[color "decorate"]
+	branch = 154
+	HEAD = 045
+	remoteBranch = 245
+	stash = 161
+	tag = 226
+[color "status"]
+	branch = 154
+[color "branch"]
+	current = 154
+	local = 154
+	remote = 245
+[log]
+	decorate = short
+[color "diff-highlight"]
+	oldNormal = red
+	oldHighlight = red bold 52
+	newNormal = green
+	newHighlight = green bold 22
+[color "diff"]
+	commit = yellow
+	meta = white
+	frag = cyan
+	old = red
+	new = green
+	whitespace = red reverse
+[url "git@github.com:"]
+	insteadOf = http://github.com/
+	insteadOf = https://github.com/
+	insteadOf = git://github.com/
+	insteadOf = git+ssh://github.com/
